@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(127, 127, 231);
+    text-align: left;
+}
+
+/* styles.css */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.image-container img {
+    width: 1000;
+    height: 1000;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(14, 26, 255); /* Adjust text color */
+    font-size: 40px; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Adjust font family */
+    font-weight: bold; /* Adjust font weight */
+    text-align: center;
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 56, 11); /* Adjust text color */
+    font-size: 26px; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Adjust font family */
+    font-weight: bold; /* Adjust font weight */
+    text-align: center;
+}
